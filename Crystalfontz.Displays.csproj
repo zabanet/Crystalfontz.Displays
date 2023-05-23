@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>Prepatch.LCD</AssemblyTitle>
+    <Company> </Company>
+    <Product>Prepatch.LCD</Product>
+    <Copyright>Copyright ©   2009</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageLicenseFile>GPL.txt</PackageLicenseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>TRACE;/unsafe</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Update="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Update="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GPL.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+    <PackageReference Include="System.Management" Version="7.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Backup\Binary.cs" />
+    <Compile Remove="Backup\CFA631\CFA631.cs" />
+    <Compile Remove="Backup\CFA631\CFA631Enums.cs" />
+    <Compile Remove="Backup\CFA631\CFA631Events.cs" />
+    <Compile Remove="Backup\CFA633\CFA633.cs" />
+    <Compile Remove="Backup\CFA633\CFA633Enums.cs" />
+    <Compile Remove="Backup\CFA633\CFA633Events.cs" />
+    <Compile Remove="Backup\CFA635\CFA635.cs" />
+    <Compile Remove="Backup\CFA635\CFA635Enums.cs" />
+    <Compile Remove="Backup\CFA635\CFA635Events.cs" />
+    <Compile Remove="Backup\CFA63x\CFA63xConst.cs" />
+    <Compile Remove="Backup\CFA63x\CFA63XDisplay.cs" />
+    <Compile Remove="Backup\CFA63x\CFA63XEnums.cs" />
+    <Compile Remove="Backup\CFA63x\CFA63XEventArgs.cs" />
+    <Compile Remove="Backup\CFA63x\CFA63Xevents.cs" />
+    <Compile Remove="Backup\CFAPacket.cs" />
+    <Compile Remove="Backup\ComDevice.cs" />
+    <Compile Remove="Backup\CRC.cs" />
+    <Compile Remove="Backup\LCDProgressBar.cs" />
+    <Compile Remove="Backup\Properties\AssemblyInfo.cs" />
+    <Compile Remove="Backup\SCAB\SCAB.cs" />
+    <Compile Remove="Backup\SCAB\SCABEnums.cs" />
+    <Compile Remove="Backup\SCAB\SCABEventArgs.cs" />
+    <Compile Remove="Backup\SCAB\SCABEvents.cs" />
+    <Compile Remove="Backup\ScrollingText.cs" />
+    <Compile Remove="Backup\SerialPorts.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="GPL.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

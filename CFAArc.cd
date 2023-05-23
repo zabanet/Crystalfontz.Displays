@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Crystalfontz.Displays.CFA631" Collapsed="true">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFA631\CFA631.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crystalfontz.Displays.CFA633" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFA633\CFA633.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crystalfontz.Displays.CFA635" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Crystalfontz.Displays.CFA635.KeysMask" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA635\CFA635Enums.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Crystalfontz.Displays.CFA635.LEDColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA635\CFA635Enums.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAEBAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CFA635\CFA635.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crystalfontz.Displays.CFA63XDisplay" Collapsed="true">
+    <Position X="6" Y="0.75" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.KeyPressedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.KeyReleasedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.PacketRecivedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.HardwareFirmwareVersionHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.ReadUserFlashHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.ReadDataHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.BaudRateChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Crystalfontz.Displays.CFA63XDisplay.ReportingAndStatusHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CFA63x\CFA63Xevents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KABAACADAqABAQCMIkABAAAUBSECACIAOAQxABFMIAA=</HashCode>
+      <FileName>CFA63x\CFA63xConst.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
